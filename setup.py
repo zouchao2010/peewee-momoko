@@ -4,14 +4,14 @@ An asynchronous peewee database adapter for psycopg using momoko.
 
 from setuptools import setup
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 setup(
     name='peewee-momoko',
     version=__version__,
     author='Michael Lavers',
     author_email='kolanos@gmail.com',
-    url='https://github.com/txtadvice/peewee-momoko',
+    url='https://github.com/TxTAdvice/peewee-momoko',
     description=__doc__,
     # long_description=__doc__,
     license='MIT',
