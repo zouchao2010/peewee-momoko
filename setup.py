@@ -4,7 +4,7 @@ An asynchronous peewee database adapter for psycopg using momoko.
 
 from setuptools import setup
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 setup(
     name='peewee-momoko',
@@ -28,9 +28,15 @@ setup(
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
+        'Topic :: Database',
+        'Topic :: Database :: Front-Ends',
     ]
 )
